@@ -20,7 +20,7 @@ smart contract you can't get it back due to the wallets being protected by
 the money gets in the hacker hands, it's gone forever.
 
 
-## Slock and The DAO
+## Slock.It and The DAO
 
 There have been many contracts written on the Ethereum blockchain but one played a huge role in Ethereum history called
 [The DAO contract](https://en.wikipedia.org/wiki/The_DAO_(organization)) [[1]](https://web.archive.org/web/20180629084649/https://en.wikipedia.org/wiki/The_DAO_(organization)).
@@ -32,7 +32,7 @@ crowdsale that helped fund the company. By May 21 2016 the DAO token sale manage
 Shortly after the crowd-sale ended a new exploit is found, termed [race to empty](https://vessenes.com/more-ethereum-attacks-race-to-empty-is-the-real-deal/) [[1]](https://web.archive.org/web/20181202194926/https://vessenes.com/more-ethereum-attacks-race-to-empty-is-the-real-deal/) [[2]](http://archive.is/Sz7cT).
 > In Brief: Your smart contract is probably vulnerable to being emptied if you keep track of any sort of user balances and were not very, very careful.
 
-A few days later an official statement from Stephan Tual - CEO of Slock - comes claiming that
+A few days later an official statement from Stephan Tual - CEO of Slock.It - comes claiming that
 [no DAO funds are at risk](https://blog.slock.it/no-dao-funds-at-risk-following-the-ethereum-smart-contract-recursive-call-bug-discovery-29f482d348b) [[1]](https://web.archive.org/web/20180823103440/https://blog.slock.it/no-dao-funds-at-risk-following-the-ethereum-smart-contract-recursive-call-bug-discovery-29f482d348b?gi=38eed1977174) [[2]](http://archive.is/fmYHI) because of this new `recursive call bug` discovery.
 
 > We promptly circumvented this so-called “recursive call vulnerability” or “race to empty” from the DAO Framework 1.1 
@@ -44,7 +44,7 @@ Sadly, as it turned out, they could not have been more wrong.
 1. Ethereum network launches
 2. Soon after, a company named *Slock.It* deploys a smart contract that ends up holding 150 million dollars
 3. A new bug is described that can be used to empty a lot of contracts that follow bad practices
-4. Slock CEO claims they are not vulnerable to this attack
+4. Slock.It CEO claims they are not vulnerable to this attack
 
 [Continue to next chapter](struggle.md)
 

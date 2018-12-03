@@ -1,6 +1,6 @@
 # Struggle - The DAO nightmare
 
-As mentioned, Slock was wrong about the security of their DAO contract. Only five days after the [blog post](https://blog.slock.it/no-dao-funds-at-risk-following-the-ethereum-smart-contract-recursive-call-bug-discovery-29f482d348b) [[1]](https://web.archive.org/web/20180823103440/https://blog.slock.it/no-dao-funds-at-risk-following-the-ethereum-smart-contract-recursive-call-bug-discovery-29f482d348b?gi=38eed1977174) [[2]](http://archive.is/fmYHI), a user called *ledgerwatch* makes a [post on reddit](https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/) [[1]](https://web.archive.org/web/20181202194923/https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/) [[2]](http://archive.is/byj7G) with a very concerning title `I think TheDAO is getting drained right now`.
+As mentioned, Slock.It was wrong about the security of their DAO contract. Only five days after the [blog post](https://blog.slock.it/no-dao-funds-at-risk-following-the-ethereum-smart-contract-recursive-call-bug-discovery-29f482d348b) [[1]](https://web.archive.org/web/20180823103440/https://blog.slock.it/no-dao-funds-at-risk-following-the-ethereum-smart-contract-recursive-call-bug-discovery-29f482d348b?gi=38eed1977174) [[2]](http://archive.is/fmYHI), a user called *ledgerwatch* makes a [post on reddit](https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/) [[1]](https://web.archive.org/web/20181202194923/https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/) [[2]](http://archive.is/byj7G) with a very concerning title `I think TheDAO is getting drained right now`.
 
 That's right, the DAO contract has fallen victim to the `recursive call bug`. The attacker - often referenced as `The DAO hacker` - stole
 around 4 million Ether which was valued close to 50 million dollars at the time, making it one of the biggest hacks in the history of cryptocurrencies.
@@ -114,7 +114,7 @@ that one could do a [replay attack on the other chain](https://vessenes.com/hard
 
 ## Motivations for interventions
 
-One thing to note is that some members of the Slock team were ex Ethereum Foundation members, including Slock CEO Stephan Tual.
+One thing to note is that some members of the Slock.It team were ex Ethereum Foundation members, including Slock.It CEO Stephan Tual.
 This makes it suspicious, no? I mean, who wouldn't bail out his friends?
 
 There were many that did not agree with the idea of a Hard Fork, but every one thought the old untampered chain would die.
