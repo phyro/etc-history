@@ -9,7 +9,7 @@ They can agree on any contract and know with 100% certainty how it will behave. 
 using the term **Code is Law** to describe that the contract (in this case code) will get executed in the exact way it was written,
 regardless of possible inconveniences or even flaws in it.
 
-After successfully raising 18 millions from the ICO (72 million of Ether was premined), Ethereum gets its first implementation of the blockchain and
+After successfully raising 18 million from the ICO (72 million of Ether was premined), Ethereum gets its first implementation of the blockchain and
 [gets launched successfully](https://blog.ethereum.org/2015/07/30/ethereum-launches/).
 
 
@@ -24,8 +24,8 @@ the money gets in the hacker hands, it's gone forever.
 
 There have been many contracts written on the Ethereum blockchain but one played a huge role in Ethereum history called
 [The DAO contract](https://en.wikipedia.org/wiki/The_DAO_(organization)).
-The contract was written by a company named `Slock` started by a former Ethereum CCO `Stephan Tual`. The DAO was launched with a 28 day
-crowdsale that helped fund the company. By May 21 2016 the DAO token sale managed to raise over 150 million dollars (valued in Ether) totaling 11.5 million Ether.
+The contract was written by a company named `Slock.It` started by a former Ethereum CCO `Stephan Tual`. The DAO was launched with a 28 day
+crowdsale that helped fund the company. By May 21 2016 the DAO token sale managed to raise over 11.5 million Ether (~$150 million USD at the time).
 
 
 
@@ -42,7 +42,7 @@ Sadly, as it turned out, they could not have been more wrong.
 ## Summary
 
 1. Ethereum network launches
-2. Soon after, a company named *Slock* deploys a smart contract that ends up holding 150 million dollars
+2. Soon after, a company named *Slock.It* deploys a smart contract that ends up holding 150 million dollars
 3. A new bug is described that can be used to empty a lot of contracts that follow bad practices
 4. Slock CEO claims they are not vulnerable to this attack
 
