@@ -69,7 +69,7 @@ Smart Contracts for anyone that asks them and they've already successfully audit
 ## Join us
 
 The best way to show support for ETC is to join the community. We have several social media channels:
-* [ETC Website](https://ethereumclassic.org/) [1](http://archive.fo/91UF9)
+* [ETC Website](https://ethereumclassic.org/) [[1]](http://archive.fo/91UF9)
 * [ETC Discord](https://discordapp.com/invite/HW4GckH)
 * [ETC Twitter](https://twitter.com/eth_classic)
 * [ETC Reddit](https://www.reddit.com/r/EthereumClassic/)
