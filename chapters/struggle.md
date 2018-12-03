@@ -1,6 +1,6 @@
 # Struggle - The DAO nightmare
 
-As mentioned, Slock was wrong about the security of their DAO contract. Only five days after the [blog post](https://blog.slock.it/no-dao-funds-at-risk-following-the-ethereum-smart-contract-recursive-call-bug-discovery-29f482d348b), a user called *ledgerwatch* makes a [post on reddit](https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/) with a very concerning title `I think TheDAO is getting drained right now`.
+As mentioned, Slock was wrong about the security of their DAO contract. Only five days after the [blog post](https://blog.slock.it/no-dao-funds-at-risk-following-the-ethereum-smart-contract-recursive-call-bug-discovery-29f482d348b) [[1]](https://web.archive.org/web/20180823103440/https://blog.slock.it/no-dao-funds-at-risk-following-the-ethereum-smart-contract-recursive-call-bug-discovery-29f482d348b?gi=38eed1977174) [[2]](http://archive.is/fmYHI), a user called *ledgerwatch* makes a [post on reddit](https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/) [[1]](https://web.archive.org/web/20181202194923/https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/) [[2]](http://archive.is/byj7G) with a very concerning title `I think TheDAO is getting drained right now`.
 
 That's right, the DAO contract has fallen victim to the `recursive call bug`. The attacker - often referenced as `The DAO hacker` - stole
 around 4 million Ether which was valued close to 50 million dollars at the time, making it one of the biggest hacks in the history of cryptocurrencies.
@@ -33,7 +33,7 @@ An important thing to note here is that there was nothing wrong with the Ethereu
 ## A plan to rescue the funds
 
 Vitalik Buterin first proposed a Soft fork solution which was soon found out to not be a good enough due to
-[a potential DOS vector](http://hackingdistributed.com/2016/06/28/ethereum-soft-fork-dos-vector/).
+[a potential DOS vector](http://hackingdistributed.com/2016/06/28/ethereum-soft-fork-dos-vector/) [[1]](https://web.archive.org/web/20181003135340/http://hackingdistributed.com/2016/06/28/ethereum-soft-fork-dos-vector/) [[2]](http://archive.is/y8qEd).
 
 Ethereum Foundation started planning a Hard fork. The Hard fork would make an **irregular state change** that would return the funds taken
 by the DAO hacker. Many of course found this to be a controversial move and thought that the developers should not play judges, otherwise
@@ -51,7 +51,7 @@ with the `--oppose-dao-fork` flag. You can imagine that many people simply didn'
 3. People that had money in the DAO contract had higher incentive to vote - bailing themselves out
 
 
-[The Carbon Vote results](http://v1.carbonvote.com/) showed that ~85% voted for Hard fork and ~15% against it.
+[The Carbon Vote results](http://v1.carbonvote.com/) [[1]](https://web.archive.org/web/20181107050846/http://v1.carbonvote.com/) [[2]](http://archive.is/wlmuf) showed that ~85% voted for Hard fork and ~15% against it.
 From the results we can observe that:
 1. Less than 6% Ether holders voted
 2. One single address voted with so much Ether that it amounted to 25% of all votes - remember, there was a 72 million premine
@@ -75,7 +75,7 @@ Clearly not.
 
 #### Below is the source code of the actual implementation of the go-ethereum client:
 
-Call a function for custom state changes if the block is the DAO hard fork block  - [https://github.com/ethereum/go-ethereum/blob/master/core/state_processor.go](https://github.com/ethereum/go-ethereum/blob/master/core/state_processor.go)
+Call a function for custom state changes if the block is the DAO hard fork block  - [https://github.com/ethereum/go-ethereum/blob/master/core/state_processor.go](https://github.com/ethereum/go-ethereum/blob/cf33d8b83ce78d1e79cd8c43a21070b2050d5c7e/core/state_processor.go#L64-L67)
 ```go
 // Mutate the block and state according to any hard-fork specs
 if p.config.DAOForkSupport && p.config.DAOForkBlock != nil && p.config.DAOForkBlock.Cmp(block.Number()) == 0 {
@@ -83,7 +83,7 @@ if p.config.DAOForkSupport && p.config.DAOForkBlock != nil && p.config.DAOForkBl
 }
 ```
 
-Takes the money from predefined addresses and moves it to some other account - [https://github.com/ethereum/go-ethereum/blob/master/consensus/misc/dao.go](https://github.com/ethereum/go-ethereum/blob/master/consensus/misc/dao.go)
+Takes the money from predefined addresses and moves it to some other account - [https://github.com/ethereum/go-ethereum/blob/master/consensus/misc/dao.go](https://github.com/ethereum/go-ethereum/blob/061889d4ea13b23d777efbe005210ead8667e869/consensus/misc/dao.go#L71-L85)
 ```go
 // ApplyDAOHardFork modifies the state database according to the DAO hard-fork
 // rules, transferring all balances of a set of DAO accounts to a single refund
@@ -110,7 +110,7 @@ statedb.SetBalance(addr, new(big.Int)) // sets the balance of account stored in 
 
 One issue that came with this was the fact that the Ethereum Foundation was sure that the old chain would die, and they didn't make all the
 necessary things to avoid possible issues in case the old chain survives. Having two chains with the same signing of transactions meant
-that one could do a [replay attack on the other chain](https://vessenes.com/hard-fork-and-replay-concerns/)
+that one could do a [replay attack on the other chain](https://vessenes.com/hard-fork-and-replay-concerns/) [[1]](https://web.archive.org/web/20180909063418/https://vessenes.com/hard-fork-and-replay-concerns/) [[2]](http://archive.is/F9uCt)
 
 ## Motivations for interventions
 
@@ -123,7 +123,7 @@ There were many that did not agree with the idea of a Hard Fork, but every one t
 ## A new hope
 
 An anonymous reddit user **whatisgravity** announces that he is working on restoring the client without the Hard Fork.
-[He starts encouraging others](https://github.com/ethereumproject/go-ethereum/issues/1) to contribute their free time in keeping the
+[He starts encouraging others](https://github.com/ethereumproject/go-ethereum/issues/1) [[1]](https://web.archive.org/web/20170312071416/https://github.com/ethereumproject/go-ethereum/issues/1) [[2]](http://archive.is/Ris2t) to contribute their free time in keeping the
 non modified version of the chain alive. Many volunteers decided to contribute including the ETCDEV founder Igor 'splix' Artamonov,
 Arvicco, Charles Hoskinson, Cody 'DontPanicBurns' Burns and Elaine Ou. Whatisgravity restored the old version of the client and the non modified chain
 was up and running supported by the nodes from the volunteers in the community that felt the hard fork betrayed their belief in the system.
@@ -138,11 +138,11 @@ Things were not looking good until a few days later when Poloniex exchange annou
 ticker **ETC** and the Ethereum Classic name was born. For every Ether owned on the forked chain (Ethereum) you get an Ether on the non forked
 chain (ETC).
 
-The announcement was great news for ETC, but soon [a skype leak](https://busy.org/@thedailysteem/leaked-ethereum-foundation-skype-chat)
+The announcement was great news for ETC, but soon [a skype leak](https://busy.org/@thedailysteem/leaked-ethereum-foundation-skype-chat) [[1]](https://web.archive.org/web/20181203201841/https://busy.org/@thedailysteem/leaked-ethereum-foundation-skype-chat) [[2]](https://archive.is/4v1cw)
 appeared on forums showing some of the Ethereum Foundation members talking about bringing the price to 0$ by selling their share of Ether.
 Ethereum Classic price first started rising reaching 45% of the price of ETH. However during the course of the next week it feel to only 10%. Apart from individuals from Ethereum Foundation dumping their Ether to get the 'free money' or bring the price to 0$, the DAO hacker also tried sending some ETC to
 exchanges and successfully sold around 100.000 ETC. However, this wasn't the main reason for the price dump. There was another thing that played a HUGE role in crashing the price. The so called white hat hackers *RHG* who hacked the DAO contract in the same way the original DAO hacker did still had 7 million ETC.
-[The white hats dumped 1 million](https://medium.com/@WhalePanda/ethereum-chain-of-liars-thieves-b04aaa0762cb) (yes, it was literally a million) ETC in 1 week which crashed the price of ETC for good. At that point in time this amounted to more than 1% of all ETC in circulation. Regardless whether their
+[The white hats dumped 1 million](https://medium.com/@WhalePanda/ethereum-chain-of-liars-thieves-b04aaa0762cb) [[1]](https://web.archive.org/web/20181107050849/https://medium.com/@WhalePanda/ethereum-chain-of-liars-thieves-b04aaa0762cb) [[2]](https://archive.is/l9oNL) (yes, it was literally a million) ETC in 1 week which crashed the price of ETC for good. At that point in time this amounted to more than 1% of all ETC in circulation. Regardless whether their
 plan was to get rich or not, one thing is clear, they stole the money from the contract in the same way the original DAO hacker did and sold much more
 on exchanges. This makes their actions 10 times worse compared to the original DAO hacker who sold only around 100.000 ETC.
 
@@ -155,10 +155,10 @@ So to summarize, the events **after** the DAO fork were also a mess in many ways
 
 It does not end here. On July 28th - 8 days **AFTER** the DAO fork - a suspicious activity was happening with the DAO contract which was noticed by
 one of the Ethereum reddit community members called *DeviateFish_*.
-[You can read all about it here](https://www.reddit.com/r/ethereum/comments/805gcn/vitalik_said_doing_rescue_forks_in_exceptional/duveapx/?context=3) but to put it short
+[You can read all about it here](https://www.reddit.com/r/ethereum/comments/805gcn/vitalik_said_doing_rescue_forks_in_exceptional/duveapx/?context=3) [[1]](https://web.archive.org/web/20180226224909/https://www.reddit.com/r/ethereum/comments/805gcn/vitalik_said_doing_rescue_forks_in_exceptional/duveapx/?context=3) [[2]](https://archive.is/idEAG) but to put it short
 someone sent a lot of Ether to the DAO contract *AFTER* the DAO fork and they used another vulnerability in the DAO contract to get the funds out. This same vulnerability could have been used to steal the money back from the original DAO hacker meaning that no fork was ever necessary. And some people from
 the Robin Hood Group seem to have known that. *DeviateFish_* also wrote an explanation of the vulnerability and why he thinks
-[the DAO contract was engineered for failure](https://gist.github.com/DeviateFish/6035257f3424a8ea00e83447eaaa2f90#the-token-tainting-exploit).
+[the DAO contract was engineered for failure](https://gist.github.com/DeviateFish/6035257f3424a8ea00e83447eaaa2f90#the-token-tainting-exploit) [[1]](https://web.archive.org/web/20181203202326/https://gist.github.com/DeviateFish/6035257f3424a8ea00e83447eaaa2f90) [[2]](http://archive.is/wGJfe).
 
 
 ## Summary
@@ -172,16 +172,16 @@ the Robin Hood Group seem to have known that. *DeviateFish_* also wrote an expla
 
 ## Resources
 
-[I think TheDAO is getting drained right now - ledgerwatch](https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/)
+[I think TheDAO is getting drained right now - ledgerwatch](https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/) [[1]](https://web.archive.org/web/20181202194923/https://www.reddit.com/r/ethereum/comments/4oi2ta/i_think_thedao_is_getting_drained_right_now/) [[2]](http://archive.is/byj7G)
 
-[Stick a fork in Ethereum - Elaine Ou](https://elaineou.com/2016/07/18/stick-a-fork-in-ethereum/)
+[Stick a fork in Ethereum - Elaine Ou](https://elaineou.com/2016/07/18/stick-a-fork-in-ethereum/) [[1]](https://web.archive.org/web/20181126234338/https://elaineou.com/2016/07/18/stick-a-fork-in-ethereum/) [[2]](http://archive.is/oegkX)
 
-[Hard fork and replay concerns - Peter Vessenes](https://vessenes.com/hard-fork-and-replay-concerns/)
+[Hard fork and replay concerns - Peter Vessenes](https://vessenes.com/hard-fork-and-replay-concerns/) [[1]](https://web.archive.org/web/20180909063418/https://vessenes.com/hard-fork-and-replay-concerns/) [[2]](http://archive.is/F9uCt)
 
-[Ethereum chain of liars and thieves - Whale Panda](https://medium.com/@WhalePanda/ethereum-chain-of-liars-thieves-b04aaa0762cb)
+[Ethereum chain of liars and thieves - Whale Panda](https://medium.com/@WhalePanda/ethereum-chain-of-liars-thieves-b04aaa0762cb) [[1]](https://web.archive.org/web/20181107050849/https://medium.com/@WhalePanda/ethereum-chain-of-liars-thieves-b04aaa0762cb) [[2]](https://archive.is/l9oNL)
 
-[The Robin Hood Group and ETC - Jack Sparrow](https://medium.com/@jackfru1t/the-robin-hood-group-and-etc-bdc6a0c111c3)
+[The Robin Hood Group and ETC - Jack Sparrow](https://medium.com/@jackfru1t/the-robin-hood-group-and-etc-bdc6a0c111c3) [[1]](https://web.archive.org/web/20170722034214/https://medium.com/@jackfru1t/the-robin-hood-group-and-etc-bdc6a0c111c3) [[2]](http://archive.is/G7lma)
 
-[ROBIN HOOD GROUP SOLD DAO FUNDS IN AN ALLEGED ATTEMPT TO TANK ETC](https://bitcoinist.com/robin-hood-group-attempted-to-sell-dao-funds-in-an-apparent-attempt-to-tank-etc/)
+[ROBIN HOOD GROUP SOLD DAO FUNDS IN AN ALLEGED ATTEMPT TO TANK ETC](https://bitcoinist.com/robin-hood-group-attempted-to-sell-dao-funds-in-an-apparent-attempt-to-tank-etc/) [[1]](http://archive.is/rl30U)
 
-[A DAO drain after the hard fork that nobody knows about - DeviateFish_](https://www.reddit.com/r/ethereum/comments/805gcn/vitalik_said_doing_rescue_forks_in_exceptional/duveapx/?context=3)
+[A DAO drain after the hard fork that nobody knows about - DeviateFish_](https://www.reddit.com/r/ethereum/comments/805gcn/vitalik_said_doing_rescue_forks_in_exceptional/duveapx/?context=3) [[1]](https://web.archive.org/web/20180226224909/https://www.reddit.com/r/ethereum/comments/805gcn/vitalik_said_doing_rescue_forks_in_exceptional/duveapx/?context=3) [[2]](https://archive.is/idEAG)

@@ -16,12 +16,12 @@ will be working with OpenStack on their Cloud Passport Program where OpenStack w
 By that time ETCDEV has expanded to a total of 14 members. On [ETC Summit 2018](https://etcsummit.com/) that was held in Seoul they announced
 they are working on sidechains called Orbitas that will be able to run a different consensus algorithm - for instance Proof of Authority - while
 still having the security of the Proof of Work mainnet because of the snapshots. They also began working on a Just in Time compiler for SputnikVM
-which [could improve the speed of EVM by 30-60x](https://twitter.com/etcdev/status/1063084513499193347).
+which [could improve the speed of EVM by 30-60x](https://twitter.com/etcdev/status/1063084513499193347) [[1]](http://archive.is/BPRwb).
 
 ## IOHK progress
 
 IOHK team Grothendieck makes their first release of the Mantis client, making it probably the most concisely written Ethereum client to date. IOHK has been doing a lot of research in the space and one that is particularly
-interesting to ETC space is their [Non-Interactive Proofs of Proof-of-Work](https://nipopows.com/) - NIPoPoW - that if implemented could reduce
+interesting to ETC space is their [Non-Interactive Proofs of Proof-of-Work](https://nipopows.com/) [[1]](http://archive.is/zAid4)- NIPoPoW - that if implemented could reduce
 the size of the light client to less than 1 Megabyte - this can be achieved because the number of blocks needed is reduced to logarithm of the total
 number of blocks in the chain. Another possible usage is to use it to build sidechains with it. There's an [ECIP proposal](https://github.com/ethereumproject/ECIPs/pull/97) open that is a starting point for the work in the paper and the work is likely
 to happen once everyone agrees on it - for more information [here's a presentation](https://www.youtube.com/watch?v=_xJI8xRxULw) from
@@ -40,11 +40,11 @@ $976,985
 ## ETC Labs founded
 
 Another team appears out of nowhere called [ETC Labs](https://www.etclabs.org/) which is an incubator for projects working on the ETC chain with an
-[initial operating capital of $50 million](https://twitter.com/etccooperative/status/996405869012234241).
+[initial operating capital of $50 million](https://twitter.com/etccooperative/status/996405869012234241) [[1]](http://archive.is/VCFgg).
 >Ethereum Classic Labs is among the first incubators to accelerate innovative projects on the Ethereum Classic Blockchain (ETC). We are entrepreneurs and technologists who believe that good ideas thrive in a vibrant ecosystem. Our mission is to develop the ETC ecosystem, and to support entrepreneurs and their enterprises. Whether you have a great idea but are unsure of the full range of applications, or you already have a great product but need help taking it to market, Ethereum Classic Labs can help. We provide office space, advice, support, and access to a community of peers. We also provide direct investment in exchange for equity and/or tokens to help your start up grow.
 
 They plan to have 3 rounds of incubator programs per year incubating a total of ~50 projects yearly. ETC Labs had a
-[successful launch](https://medium.com/ethereum-classic-labs/etc-labs-launch-event-a-huge-success-5bab8d8a3903) on 25th October 2018 and started
+[successful launch](https://medium.com/ethereum-classic-labs/etc-labs-launch-event-a-huge-success-5bab8d8a3903) [[1]](http://archive.fo/BaSrh) on 25th October 2018 and started
 incubating their first batch of projects. Each team is offered a technical as well as financial supporting and a workspace in San Francisco offices.
 
 
@@ -52,7 +52,7 @@ incubating their first batch of projects. Each team is offered a technical as we
 
 There is another team called *Ethereum Commonwealth* led by an anonymous programmer *Dexaran*. The team raised some funds in an ICO they held and later
  decided to make their own chain called **Callisto**. There was a bunch of confusion on the internet regarding Callisto and a lot of articles
-[got it wrong](https://steemit.com/ethereum/@leader1971/ethereum-classic-devs-aim-to-address-scaling-with-callisto-sidechain). Callisto was never a sidechain
+[got it wrong](https://steemit.com/ethereum/@leader1971/ethereum-classic-devs-aim-to-address-scaling-with-callisto-sidechain) [[1]](http://archive.fo/emNZE). Callisto was never a sidechain
 to Ethereum Classic main chain. Nobody from ETCDEV or IOHK said it was, this was very poorly communicated by the leader of the Ethereum Commonwealth
 Dexaran and the fake news spread all over the internet. Callisto forked the Ethereum (ETH) client and set it's balance state to that of the ETC network.
 Apart from the airdrop for those that held ETC, it had nothing to do with ETC in particular. Ethereum Commonwealth is offering free auditing of
@@ -69,7 +69,7 @@ Smart Contracts for anyone that asks them and they've already successfully audit
 ## Join us
 
 The best way to show support for ETC is to join the community. We have several social media channels:
-* [ETC Website](https://ethereumclassic.org/)
+* [ETC Website](https://ethereumclassic.org/) [1](http://archive.fo/91UF9)
 * [ETC Discord](https://discordapp.com/invite/HW4GckH)
 * [ETC Twitter](https://twitter.com/eth_classic)
 * [ETC Reddit](https://www.reddit.com/r/EthereumClassic/)

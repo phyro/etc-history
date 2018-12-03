@@ -1,6 +1,6 @@
 # Recovery - Showing signs of life
 
-ETC community [declares its independence](https://ethereumclassic.github.io/assets/ETC_Declaration_of_Independence.pdf) in August 2016.
+ETC community [declares its independence](https://ethereumclassic.github.io/assets/ETC_Declaration_of_Independence.pdf) [[1]](http://archive.is/9agND) in August 2016.
 >Let it be known to the entire world that on July 20th, 2016, at block 1,920,000, we as a community of sovereign
 individuals stood united by a common vision to continue the original Ethereum blockchain that is truly free from
 censorship, fraud or third party interference. In realizing that the blockchain represents absolute truth, we stand
@@ -10,7 +10,7 @@ the consequences of our actions.
 A lot of volunteers continue to support the now called Ethereum Classic chain despite the chain going through very rough times.
 On February 20th 2017, Igor Artamonov founds a company called **ETCDEV** whose focus is on improving developer tools for Ethereum Classic Smart Contract
 developers and contributing to the [go-ethereum classic client](https://github.com/ethereumproject/go-ethereum). The team consists of some of the volunteers
-that were already helping the ETC community. Similarly, Charles Hoskinson who had worked for Ethereum in the past, hires a [team of 7 developers](https://iohk.io/projects/ethereum-classic/#team)
+that were already helping the ETC community. Similarly, Charles Hoskinson who had worked for Ethereum in the past, hires a [team of 7 developers](https://iohk.io/projects/ethereum-classic/#team) [[1]](http://archive.is/akZim)
 from Poland to start writing a completely new Ethereum Classic client from scratch. The team is known as **Team Grothendieck** named after a French mathematician
 Alexander Grothendieck. In an interview with Crypto Baron, [he explains his view on the DAO hard fork](https://www.youtube.com/watch?v=PjKtkjnzcOk).
 
@@ -40,7 +40,7 @@ A stream of positive events starts happening in the early half a year. Just to n
 * A new podcast is started called [Let's talk ETC](https://www.youtube.com/watch?v=J35gvnA-L2c&index=58&list=PLKO8sMfwkZQqGH3Ny2OJ_SRcAvSf_0gx5)
 * Grayscale announces [Ethereum Classic Investment Trust](https://grayscale.co/ethereum-classic-investment-trust/)
 * A group of volunteers donates to a [Phoenix project](https://github.com/ethereumproject/phoenix-project) that gives us style guideliness, a new ETC logo and the phoenix mascot
-* Whatisgravity comes back for a short period of time to [announce he has been working on a project](https://www.reddit.com/r/EthereumClassic/comments/6gwbcu/i_have_been_working_on_an_etc_project_i_did_not/) for Ethereum Classic
+* Whatisgravity comes back for a short period of time to [announce he has been working on a project](https://www.reddit.com/r/EthereumClassic/comments/6gwbcu/i_have_been_working_on_an_etc_project_i_did_not/) [[1]](http://archive.is/zUMLw) for Ethereum Classic
 * First [ETC Summit](https://etcsummit.com/2017-summit/) is announced and said to be held in Hong Kong
 * A bunch of exchanges start listing ETC
 
@@ -63,7 +63,7 @@ hack without really having any understanding of it.
 
 [Charles Hoskinson interview with Crypto Baron on ETC](https://www.youtube.com/watch?v=dMNhOIUcOYo)
 
-[ETC Declaration of independence](https://ethereumclassic.github.io/assets/ETC_Declaration_of_Independence.pdf)
+[ETC Declaration of independence](https://ethereumclassic.github.io/assets/ETC_Declaration_of_Independence.pdf) [[1]](http://archive.is/9agND)
 
 [Phoenix project guidelines](https://github.com/ethereumproject/phoenix-project/blob/master/Design%20Guidelines.pdf)
 
@@ -71,6 +71,6 @@ hack without really having any understanding of it.
 
 [ETC Summit 2017 Hong Kong](https://etcsummit.com/2017-summit/)
 
-[ETCDEV website](https://etcdevteam.com)
+[ETCDEV website](https://etcdevteam.com) [[1]](http://archive.is/wjGPN)
 
-[IOHK team Grothendieck website](https://iohk.io/projects/ethereum-classic/)
+[IOHK team Grothendieck website](https://iohk.io/projects/ethereum-classic/) [[1]](http://archive.is/akZim)
