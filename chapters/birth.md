@@ -23,7 +23,7 @@ the money gets in the hacker hands, it's gone forever.
 ## Slock and The DAO
 
 There have been many contracts written on the Ethereum blockchain but one played a huge role in Ethereum history called
-[The DAO contract](https://en.wikipedia.org/wiki/The_DAO_(organization)) [[1]](https://web.archive.org/web/20180629084649/https://en.wikipedia.org/wiki/The_DAO_(organization).
+[The DAO contract](https://en.wikipedia.org/wiki/The_DAO_(organization)) [[1]](https://web.archive.org/web/20180629084649/https://en.wikipedia.org/wiki/The_DAO_(organization)).
 The contract was written by a company named `Slock.It` started by a former Ethereum CCO `Stephan Tual`. The DAO was launched with a 28 day
 crowdsale that helped fund the company. By May 21 2016 the DAO token sale managed to raise over 11.5 million Ether (~$150 million USD at the time).
 
