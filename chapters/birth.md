@@ -51,7 +51,7 @@ Sadly, as it turned out, they could not have been more wrong.
 
 ## Resources
 
-[Launching the ether sale - Vitalik Buterin](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/)
+[Launching the ether sale - Vitalik Buterin](https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/) [[1]](http://archive.fo/Gm3dO)
 
 [Ethereum launches - Vitalik Buterin](https://blog.ethereum.org/2015/07/30/ethereum-launches/) [[1]](https://web.archive.org/web/20181202012716/https://blog.ethereum.org/2015/07/30/ethereum-launches/) [[2]](http://archive.is/OQbuY)
 
