@@ -29,7 +29,7 @@ crowdsale that helped fund the company. By May 21 2016 the DAO token sale manage
 
 
 
-A new kind of attack on Smart Contracts is found called [race to empty](https://vessenes.com/more-ethereum-attacks-race-to-empty-is-the-real-deal/).
+Shortly after the crowd-sale ended a new exploit is found, termed [race to empty](https://vessenes.com/more-ethereum-attacks-race-to-empty-is-the-real-deal/).
 > In Brief: Your smart contract is probably vulnerable to being emptied if you keep track of any sort of user balances and were not very, very careful.
 
 A few days later an official statement from Stephan Tual - CEO of Slock - comes claiming that
