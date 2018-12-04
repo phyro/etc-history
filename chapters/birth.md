@@ -43,7 +43,7 @@ Sadly, as it turned out, they could not have been more wrong.
 
 1. Ethereum network launches
 2. Soon after, a company named *Slock.It* deploys a smart contract that ends up holding 150 million dollars
-3. A new bug is described that can be used to empty a lot of contracts that follow bad practices
+3. A new exploit is found that can be used to empty a lot of contracts that follow bad practices
 4. Slock.It CEO claims they are not vulnerable to this attack
 
 [Continue to next chapter](struggle.md)
