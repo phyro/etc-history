@@ -27,8 +27,11 @@ Bitcoin was fighting for. Bitcoin could have reversed many times due to exchange
 they knew they would destroy the whole idea and so they kept the ledger immutable. Ethereum Foundation pushing a plan for a bailout divided the community
 on forums in two parts, those that wanted to intervene and those that said nobody can intervene if the protocol was functioning correctly.
 
-An important thing to note here is that there was nothing wrong with the Ethereum network itself, the flaw was scoped to the DAO smart contract.
+Even Greg Maxwell who is a known face in the Bitcoin community
+[expressed his views on the topic](https://www.reddit.com/r/EthereumClassic/comments/4ts1w4/hard_fork_went_smoothly_ethereum_classic_chain_is/d5kj42t/) [[1]](http://web.archive.org/web/20170905203638/https://www.reddit.com/r/EthereumClassic/comments/4ts1w4/hard_fork_went_smoothly_ethereum_classic_chain_is/d5kj42t/) [[2]](http://archive.is/6TF9e) saying
+> When the DAO caught fire and I saw forwards of chatlogs with exchanges talking about hardforking to 'fix' it, I was shocked and sent Vitalik email urging them to not do so. In Bitcoin land such a thing would be unthinkable, and I think actually impossible.
 
+An important thing to note here is that there was nothing wrong with the Ethereum network itself, the flaw was scoped to the DAO smart contract.
 
 ## A plan to rescue the funds
 
